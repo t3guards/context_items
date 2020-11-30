@@ -1,0 +1,31 @@
+{
+    "name": "cogtail/context_items",
+    "type": "typo3-cms-extension",
+    "description": "Items for context menu",
+    "license": [
+        "GPL-2.0+"
+    ],
+    "authors": [
+        {
+            "name": "T3 Guards",
+            "role": "Developer"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "ReneGast\\ContextItems\\": "Classes/"
+        }
+    },
+    "require": {
+        "typo3/cms-core": "^10.4.10"
+    },
+    "replace": {
+        "context_items": "self.version",
+        "typo3-ter/context_items": "self.version"
+    },
+    "extra": {
+        "branch-alias": {
+            "dev-master": "10.0.x-dev"
+        }
+    }
+}

@@ -1,0 +1,13 @@
+mod.wizards.newContentElement.wizardItems.plugins {
+	elements {
+		context_items {
+			iconIdentifier = tx_context_items-error-plugin
+			title = Context Items
+			description = Items for Context Menu
+			tt_content_defValues {
+				CType = list
+				list_type = context_items_error
+			}
+		}
+	}
+}
