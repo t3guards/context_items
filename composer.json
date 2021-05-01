@@ -25,7 +25,8 @@
     },
     "extra": {
         "branch-alias": {
-            "dev-master": "10.0.x-dev"
+            "dev-master": "10.0.x-dev",
+            "extension-key": "context_items"
         }
     }
 }
